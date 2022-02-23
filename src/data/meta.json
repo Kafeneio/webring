@@ -1,6 +1,6 @@
 {
     "title": "Kafeneio",
-    "description": "This is just a demo of a webring. It could be about anything - Metal Bands, Knitting, Craft Beer, Accessibility... For this one, let's just say it's about the good old 90s.         Προς τα μέλη της ομάδας: Προτού κάνετε pull requests στο main repository του webring πρώτα κάντε ένα fetch για να γίνει συγχρονισμός του repository σας με τις αλλαγές!",
+    "description": "Προς τα μέλη της ομάδας: Προτού κάνετε pull requests στο main repository του webring πρώτα κάντε ένα fetch για να γίνει συγχρονισμός του repository σας με τις αλλαγές!",
     "image": "logo.jpg",
     "url": "https://kafeneio-webring.netlify.app/",
     "repo": "https://github.com/Kafeneio/webring",
