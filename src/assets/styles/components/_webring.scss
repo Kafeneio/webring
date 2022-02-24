@@ -20,7 +20,9 @@
     }
 
     &__memberlist {
+        border:1px solid #91c73e;
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     &__member {
