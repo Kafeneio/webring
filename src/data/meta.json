@@ -1,6 +1,6 @@
 {
     "title": "☕ Kafeneio ☕",
-    "description": "This is a webring for the github organization 'Kafeneio'. It's a part of the Software Technology class in Ionian University, department of Informatics. We are a team of 5 (five) students, aiming to learn as much as possible about Software, Operating Systems, CLI, Github (+Netlify) and hosting and deploying websites through them. Keep calm and drink Coffee!",
+    "description": "This is a webring for the github organization 'Kafeneio'. It's a part of the Software Technology class in Ionian University, department of Informatics. We are a team of 5 (five) students, aiming to learn as much as possible about Software, Operating Systems, CLI, Github (+Netlify) and hosting and deploying websites through them.",
     "image": "logo.jpg",
     "url": "https://kafeneio-webring.netlify.app/",
     "repo": "https://github.com/Kafeneio/webring",
