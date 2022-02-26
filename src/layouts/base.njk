@@ -9,6 +9,28 @@
 
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
     <link type="application/atom+xml" rel="alternate" href="feeds.xml" title="{{ meta.title }}">
+    <style>
+       .neon {
+        animation: neonAnim 2s alternate-reverse infinite;
+        color: #91C73E;
+        font-family: Cursive;
+        font-size: 72px;
+        }
+        @keyframes neonAnim {
+        from {
+            text-shadow:
+              0 0 10px rgba(145, 199, 62, .7),
+              0 0 40px rgba(145, 199, 62, .7),
+              0 0 100px rgba(145, 199, 62, .7);
+          }
+          to {
+            text-shadow:
+              0 0 5px rgba(145, 199, 62, .7),
+              0 0 20px rgba(145, 199, 62, .7),
+              0 0 60px rgba(145, 199, 62, .7);
+          }
+            }
+    </style>
 </head>
 <body>
     <div class="layout">
@@ -18,9 +40,11 @@
             </div>
         </main>
         <aside class="layout__secondary">
-            <div style="color:#91C73E">
-            {% include 'map.njk' %}
+            <div class="neon">
+                :coffee: Kafeneio :coffee:
             </div>
+            {% include 'map.njk' %}
+
         </aside>
     </div>
 
