@@ -30,6 +30,7 @@ layout: base
     color:#91C73E;
     padding: 0 20px;
     width: 100%
+    font-size: 25px;
 }
 
 canvas{
@@ -74,8 +75,8 @@ canvas{
  */
  document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
-    dotColor: '#000000',
-    lineColor: '#546B34'
+    dotColor: '#5cbdaa',
+    lineColor: '#5cbdaa'
   });
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
@@ -150,11 +151,6 @@ canvas{
 
       window.addEventListener('resize', function() {
         resizeHandler();
-      }, false);
-
-      document.addEventListener('mousemove', function(e) {
-        mouseX = e.pageX;
-        mouseY = e.pageY;
       }, false);
 
       if (orientationSupport && !desktop) {
