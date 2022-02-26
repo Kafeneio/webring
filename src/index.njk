@@ -1,11 +1,35 @@
 ---
 layout: base
 ---
-
+<style>
+.neon {
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #91C73E;
+    font-family: Consolas;
+    font-size: 35px;
+}
+@keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 25px rgba(145, 199, 62, .7),
+          0 0 55px rgba(145, 199, 62, .7),
+          0 0 115px rgba(145, 199, 62, .7);
+      }
+      to {
+        text-shadow:
+          0 0 20px rgba(145, 199, 62, .7),
+          0 0 35px rgba(145, 199, 62, .7),
+          0 0 75px rgba(145, 199, 62, .7);
+      }
+}
+</style>
 {% include 'webring.njk' %}
 
 <div class="markdown">
 
+<div class="neon">
+    Keep calm and drink Coffee!
+</div>
 
 </div>
 
